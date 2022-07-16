@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a85f6a6d2bb0d7449bf38c159d90732, type: 3}
+  m_Name: Enemy 1
+  m_EditorClassIdentifier: 
+  MaxHealth: 3
+  CurrentHealth: 3
+  CurrentSheilds: 0
+  Deck:
+  - {fileID: 11400000, guid: eab917c1ed5648c43bc6ecbb3e5ccf05, type: 2}
+  - {fileID: 11400000, guid: eab917c1ed5648c43bc6ecbb3e5ccf05, type: 2}
+  - {fileID: 11400000, guid: eab917c1ed5648c43bc6ecbb3e5ccf05, type: 2}
+  StartingNumberOfDice: 2
+  CurrentNumberOfDice: 2
+  Name: Enemy 1
