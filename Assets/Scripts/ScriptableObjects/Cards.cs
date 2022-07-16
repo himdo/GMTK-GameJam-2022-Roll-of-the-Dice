@@ -12,7 +12,7 @@ public class Cards : ScriptableObject
     public List<CardDice> NumberRequired = new List<CardDice>();
     public DamageType _DamageType;
     public string Name;
-
+    public string Description;
 }
 
 [System.Serializable]
@@ -26,8 +26,6 @@ public class CardDice
 public enum DiceModesEnum
 {
     Exact,
-    MoreThan,
-    LessThan,
     MoreOrEqual,
     LessOrEqual
 }

@@ -16,7 +16,8 @@ MonoBehaviour:
   _DamageMode: 0
   NumberOfDiceRequired: 1
   NumberRequired:
-  - Number: 0
+  - Number: 1
     Mode: 1
   _DamageType: 0
   Name: Strike
+  Description: 
